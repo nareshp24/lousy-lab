@@ -7,3 +7,4 @@ I have added extensive comments to some programs so that it will help a beginner
 ## Further implementations
 - adding remaining lab cycles
 - adding more XXXX_tut.c files
+- adding sample output to every program
