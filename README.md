@@ -9,16 +9,16 @@ Some programs give warnings while compiling, this may be because these functions
 
 ### How to compile and run on linux
 - For programs that don't use "math.h" header
--- Compile
-$ gcc <filename>.c
--- Run
-$ ./a.out
+    - Compile
+        $ gcc <filename>.c
+    - Run
+        $ ./a.out
 
 - For programs that use "math.h" header
--- Compile
-$ gcc <filename>.c -lm
--- Run
-$./a.out
+    - Compile
+        $ gcc <filename>.c -lm
+    - Run
+        $./a.out
 
 ## Further implementations
 - adding remaining lab cycles
