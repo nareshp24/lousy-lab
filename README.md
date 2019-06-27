@@ -7,6 +7,19 @@ I have added extensive comments to some programs so that it will help a beginner
 ### These programs have been tested to work fine for most of the cases on ubuntu 16.04 with gcc 4.9.0
 Some programs give warnings while compiling, this may be because these functions will be deprecated in future.  
 
+### How to compile and run on linux
+- For programs that don't use "math.h" header
+-- Compile
+$ gcc <filename>.c
+-- Run
+$ ./a.out
+
+- For programs that use "math.h" header
+-- Compile
+$ gcc <filename>.c -lm
+-- Run
+$./a.out
+
 ## Further implementations
 - adding remaining lab cycles
 - adding more XXXX_tut.c files
