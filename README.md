@@ -18,7 +18,7 @@ Some programs give warnings while compiling, this may be because these functions
     - Compile\
         $ gcc \<filename\>.c -lm
     - Run\
-        $./a.out
+        $ ./a.out
 
 ## Further implementations
 - adding remaining lab cycles
