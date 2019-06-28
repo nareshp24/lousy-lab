@@ -1,3 +1,5 @@
+// program: Matrix operations
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -6,16 +8,18 @@
 
 int main()
 {
+	// initialize variables
 	int m = 0, n = 0, i = 0, j = 0;
 	int matA[maxrow][maxcol] = {0};
 	int matB[maxrow][maxcol] = {0};
 	int matC[maxrow][maxcol] = {0};
 	int op = 0, flag = 1;
 
-
+		// take user input
 		printf("Enter the dimensions of the matrix: ");
 		scanf("%d %d", &m, &n);
-
+		
+		// make sure dimensions don't exceed max permitted dimensions
 		if(m > maxrow || n > maxcol)
 		{
 			printf("Matrix dimensions exceeds max permitted value\n");
@@ -95,6 +99,7 @@ int main()
 		}//end while
 
 		//print the output
+	
 		printf("\nOutput = \n");
 		for(i = 0; i < n; i++)
 		{

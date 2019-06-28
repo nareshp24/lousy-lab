@@ -1,16 +1,21 @@
+// program: bubble sort
+
 #include<stdio.h>
 #include<stdlib.h>
 
-# define maxsize 10
+# define maxsize 10	
 
 int main()
-{
+{	
+	// initialize variables
 	int array[maxsize] = {0};
 	int n = 0, i = 0, j = 0;
-
+		
+		// take user input
 		printf("Enter the number of elements: ");
 		scanf("%d", &n);
 
+		// make sure array size doesn't exceed maxsize
 		if(n > maxsize)
 		{
 			printf("number of elements greater than maxsize %d\n", maxsize);

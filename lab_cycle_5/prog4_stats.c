@@ -1,3 +1,5 @@
+// program: calculate mean, variance, std deviation
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
@@ -6,14 +8,17 @@
 
 int main()
 {
+	// initialize variables
 	int arr[maxsize] = {0};
 	int n = 0, i = 0;
 	float mean = 0, variance = 0, std = 0;
 	double sum = 0, varSum = 0;
-
+		
+		// take user input
 		printf("Enter the number of elements: ");
 		scanf("%d", &n);
 
+		// make sure array size doesn't exceed maxsize
 		if(n > maxsize)
 		{
 			printf("number exceeds maxsize %d\n", maxsize);
@@ -22,7 +27,7 @@ int main()
 			exit(1);
 		}
 		
-		//take input
+		//take array input
 		printf("Enter the values: \n");
 		for(i = 0; i < n; i++)
 			scanf("%d", &arr[i]);
@@ -45,7 +50,8 @@ int main()
 
 		//calculate std deviation
 		std = sqrt(variance);
-
+		
+		// display result
 		printf("Mean = %f\nVariance = %f\nStd Deviation = %f\n", mean, variance, std);
 
 	return 0;

@@ -1,3 +1,5 @@
+// program: transpose of matrix
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -6,13 +8,16 @@
 
 int main()
 {
+	// initialize variables
 	int m = 0, n = 0, i = 0, j = 0;
 	int arr[maxrow][maxcol] = {0};
 	int trans[maxrow][maxcol] = {0};
-
+		
+		// take user input
 		printf("Enter the dimensions of the matrix: ");
 		scanf("%d %d", &m, &n);
-
+		
+		// make sure array dimensions doesn't exceed max permitted dimensions 
 		if(m > maxrow || n > maxcol)
 		{
 			printf("Dimensions exceeding max size\n");
@@ -27,7 +32,7 @@ int main()
 				scanf("%d", &arr[i][j]);
 
 		//display matrix
-		printf("\nMatrix A = \n");
+		printf("\nMatrix = \n");
 		for(i = 0; i < m; i++)
 		{
 			for(j = 0; j < n; j++)
@@ -42,6 +47,7 @@ int main()
 				trans[j][i] = arr[i][j];
 
 		//display transpose
+	
 		printf("\nTranspose = \n");
 		for(j = 0; j < n; j++)
 		{

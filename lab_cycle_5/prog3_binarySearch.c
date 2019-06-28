@@ -1,23 +1,27 @@
+// program: Binary Search
+
 #include<stdio.h>
 
 # define maxsize 10
+
 int main()
 {
+	// initialize variables
 	int array[maxsize] = {0};
 	int n = 0, i = 0, j = 0, key = 0, found = 0;
 	int low = 0, high = 0, mid = 0;
-
+		
+		// take user input
 		printf("Enter the number of elements: ");
 		scanf("%d", &n);
-
+		
+		// make sure array size doesn't exceed maxsize
 		if(n > maxsize)
 		{
 			printf("Number of elements exceeds maxsize %d", maxsize);
 			printf("Increase maxsize\n");
 			printf("Program Terminated\n");
 		}
-
-		high = n;
 
 		//take input
 		printf("Enter the elements\n");
@@ -44,6 +48,8 @@ int main()
 				}
 		
 		//binary search
+
+		high = n;
 		while(low <= high)
 		{
 			mid = (low + high)/2;
