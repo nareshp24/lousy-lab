@@ -15,7 +15,7 @@ Some programs give warnings while compiling, this may be because these functions
 ```
 $ gcc <filename.c>  
 ```  
-  - To Run  
+    - To Run  
 ```
 $ ./a.out  
 ```  
