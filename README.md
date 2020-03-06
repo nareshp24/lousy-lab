@@ -51,7 +51,7 @@ The above command woud create an executable named `a.out` in the same directory 
 $ ./a.out
 ```
 
-## Further implementations
+## Remaining tasks
 - [x] Add remaining programs
 - [ ] Adding more tutorial files
 - [ ] Adding sample output to every program
