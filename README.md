@@ -4,7 +4,7 @@ This repository contains the C programs that are to be conducted in the C progra
 
 I have added extensive comments to some programs so that it will help a beginner to understand the code without much difficulty (some background is assumed). The programs with extensive comments are named as `XXXX_tut.c` (short for tutorial).
 
-**These programs have been tested to work fine for all tested cases on ubuntu 16.04 with gcc 4.9.0**
+**These programs have been tested to work fine for all tested cases on ubuntu 16.04 with gcc 4.9.0.**  
 **Although some untested edge-cases might break the code (if you find any please let me know).**    
 
 ### How to compile and run on Ubuntu Linux:
