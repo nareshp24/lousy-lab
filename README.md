@@ -12,28 +12,36 @@ Some programs give warnings while compiling, this may be because these functions
 ### How to compile and run on Ubuntu Linux:
 **For programs that don't use "math.h" header**  
     - To Compile  
-        ```$ gcc \<filename\>.c
+        ```
+        $ gcc <filename.c>  
         ```  
     - To Run  
-        ```$ ./a.out
+        ```
+        $ ./a.out  
         ```  
 
 #### Example:
 To compile a program named "prog1_basic.c" the command you would run from the terminal (after navigating to the folder/directory containing your program would be):
 
-$ gcc prog1_basic.c
-
+```
+$ gcc prog1_basic.c  
+```
 The above command would create an executable named "a.out" in the same directory as your program. To run this executable, run the following command:
 
+```
 $ ./a.out
+```
 
-
-- For programs that use "math.h" header  
-    - Compile\  
-        $ gcc \<filename\>.c -lm  
-    - Run\  
+**For programs that use "math.h" header**  
+    - To Compile  
+        ```
+        $ gcc <filename>.c -lm  
+        ```  
+    - To Run  
+      ```
         $ ./a.out  
-
+      ```
+      
 #### Example:
 To compile a program named "prog10_cosine.c" (which uses "math.h" header), the command you would run from the terminal (after navigating to the folder/directory containing your program would be):
 
