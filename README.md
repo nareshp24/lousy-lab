@@ -33,7 +33,7 @@ $ ./a.out
 **For programs that use "math.h" header:**  
 To Compile:  
 ```
-$ gcc <filename>.c -lm  
+$ gcc <filename.c> -lm  
 ```
 To Run:  
 ```
