@@ -11,11 +11,11 @@ Some programs give warnings while compiling, this may be because these functions
 
 ### How to compile and run on Ubuntu Linux:
 - **For programs that don't use "math.h" header**  
-  - To Compile  
+To Compile:  
 ```
 $ gcc <filename.c>  
 ```  
-    - To Run  
+To Run:  
 ```
 $ ./a.out  
 ```  
