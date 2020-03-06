@@ -10,7 +10,7 @@ I have added extensive comments to some programs so that it will help a beginner
 Some programs give warnings while compiling, this may be because these functions will be deprecated in future.  
 
 ### How to compile and run on linux
-- For programs that don't use "math.h" header
+### - For programs that don't use "math.h" header
     - Compile\
         $ gcc \<filename\>.c
     - Run\
