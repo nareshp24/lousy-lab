@@ -10,7 +10,7 @@ I have added extensive comments to some programs so that it will help a beginner
 Some programs give warnings while compiling, this may be because these functions will be deprecated in future.  
 
 ### How to compile and run on Ubuntu Linux:
-**For programs that don't use "math.h" header**  
+- **For programs that don't use "math.h" header**  
   - To Compile  
 ```
 $ gcc <filename.c>  
@@ -32,15 +32,16 @@ The above command would create an executable named "a.out" in the same directory
 $ ./a.out
 ```
 
-**For programs that use "math.h" header**  
-    - To Compile  
-        ```
-        $ gcc <filename>.c -lm  
-        ```  
-    - To Run  
-      ```
-        $ ./a.out  
-      ```
+- **For programs that use "math.h" header**  
+  - To Compile  
+```
+$ gcc <filename>.c -lm  
+```
+
+  - To Run  
+```
+$ ./a.out  
+```
 
 #### Example:
 To compile a program named "prog10_cosine.c" (which uses "math.h" header), the command you would run from the terminal (after navigating to the folder/directory containing your program would be):
