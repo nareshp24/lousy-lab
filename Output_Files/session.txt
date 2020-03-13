@@ -1,0 +1,764 @@
+Script started on 2020-03-13 09:21:03+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="143" LINES="38"]
+[01;32mashish_farande@Farande[00m:[01;34m~/Desktop/Naresh/lousy-lab[01;35m [master][00m$ ./execute.sh
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog1_basic.c 
+
+Enter 2 numbers: 2 4
+The sum of 2 and 4 is 6
+The difference of 2 and 4 is -2
+The product of 2 and 4 is 8
+The quotient 2 and 4 is 0
+The remainder of 2 and 4 is 2
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog2_mathOps.c 
+
+Enter a positive and negative number: 4 -6
+Enter a negative float(decimal) number: 5.2634
+The square root of 4 is 2.000000
+The absolute value of -6 is 6
+The absolute value of 5.263400 is 5.263400
+4 to the power of 2 is 16
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog3_area.c 
+
+Enter the radius of the circle: 1
+Enter the length of side of square: 4
+Enter the 2 sides of rectangle: 3 2
+Enter the 3 sides of a triangle: 
+3 4 5
+Enter the base and height length of a triangle: 2 4
+
+Area of circle with radius 1.000000 is 3.140000
+Area of square with side 4.000000 is 16.000000
+Area of rectangles with sides 3.000000 and 2.000000 is 6.000000
+Area of triangle with sides 3.000000 4.000000 5.000000 is 6.000000
+Area of triangle with base: 2.000000 and height: 4.000000 is 4.000000
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog4_temperature_convert.c 
+
+Enter the temperature in fahrenheit: 32
+32.000000 fahrenheit is 0.000000 celsius
+Enter the temperature in celsius: 0
+0.000000 is celsius is 32.000000 fahrenheit
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog5_interest.c 
+
+Enter the principal amount: 1000
+Enter the rate of interest :10
+Enter the time in years: 1
+The amount with simple interest after 1.000000 year(s) is 1100.000000
+The amount with compound interest after 1.000000 year(s) is 1100.000000
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog6_rotate.c 
+
+Enter 3 numbers: 1 2 3
+Before rotation: x =  1, y =  2, z =  3
+After rotation: x = 2, y = 3, z = 1
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog7_rightmostIntegral.c 
+
+Enter a float value: 458714.1654
+The right most integral digit of 458714.156250 is 4
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_1/prog8_separate.c 
+
+Enter a float value: 46358.465853
+Integral Part: 46358
+Decimal Part: 0.464844
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/plusminus.c 
+
+Enter a number: 56
+Positive
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog1b_largest2.c 
+
+Enter two numbers: 1381 896352
+The greater value is: 896352
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog1b_largest3.c 
+
+Enter 3 numbers: 135 896352 415630
+The greatest value is 896352
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog2_oddeven.c 
+
+Enter a number: 2456
+Even
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog3_bitwise.c 
+
+Enter the value of a and b: 5 8
+c = a & b = 0
+d = a | b = 13
+e = ~a = -6
+f = a >> 3 = 0
+g = a << 3 = 40
+h = a ^ b = 13
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog4_remainder.c 
+
+Enter the dividend and the divisor: 12 5
+remainder = 2
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog5_incdec.c 
+
+Enter a number: 56
+Initial value of a = 56
+Prefix increment: y = ++a = 57
+Postfix increment: z = a++ = 57
+Current value of a = 58
+Prefix decrement: k = --a = 57
+Postfix decrement: m = a-- = 57
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_2/prog6_size.c 
+
+size of int = 4 bytes
+size of float = 4 bytes
+size of char = 1 bytes
+size of long = 8 bytes
+size of short = 2 bytes
+size of double = 8 bytes
+size of unsigned  = 4 bytes
+size of long double = 16 bytes
+size of long unsigned int = 8 bytes
+size of long long int = 8 bytes
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog1_posneg.c 
+
+Enter a number: 4569
+4569 is positive
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog2_largest2.c 
+
+Enther 2 numbers: 85 96 
+96 is a bigger number
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog2_largest3.c 
+
+Enter 3 numbers: 45 85 96
+96 is the greatest
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog3_oddeven.c 
+
+Enter a number: 759  
+NUMBER IS ODD
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog3_oddeven_noelse.c 
+
+Enter a number: 468
+NUMBER IS EVEN
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog4_quadratic.c 
+
+Enter the coefficients: 1 2 3
+The roots of the equation are (-1.000000)+i(1.414214) and (-1.000000)-i(1.414214)
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog5_studentclass.c 
+
+Enter the scores of student for 6 subjects: 123 45     3 56 85 96 44 56
+Student passed with THIRD CLASS
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog6_electricbill.c 
+
+Enter the units of electricity consumed: 12
+The total electricity bill is 120.000 INR
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog7_leapyear.c 
+
+Enter the year: 2020
+2020 is a leap year
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog8_months.c 
+
+Enter a number to get the corresponding month: 10
+October
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_3/prog9_simpleCalc.c 
+
+Enter 2 numbers: 1 1
+--------Enter the number to perform corresponsing operation--------
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+4
+The quotient of 1 and 1 is 1
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog001_sumoddeven.c 
+
+Enter the value of n: 45
+Sum of odd numbers in range 0 to 45 is 529
+Sum of even numbers in range 0 to 45 is 506 
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog002_fibonacci.c 
+
+Enter the value of n: 6
+0
+1
+1
+2
+3
+5
+8
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog003_reducingSum.c 
+
+Enter a number: 56
+reduced sum of 56 is 11
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog004_euclid.c 
+
+Enter 2 numbers: 45b  45  56
+GCD of 45 and 56 is 1
+LCM of 45 and 56 is 2520
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog005_reversePalindrome.c 
+
+Enter a 4 digit number: ad sddsa
+PALINDROME
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog006_div8.c 
+
+Enter a number: 786
+8
+16
+24
+32
+40
+48
+56
+64
+72
+80
+88
+96
+104
+112
+120
+128
+136
+144
+152
+160
+168
+176
+184
+192
+200
+208
+216
+224
+232
+240
+248
+256
+264
+272
+280
+288
+296
+304
+312
+320
+328
+336
+344
+352
+360
+368
+376
+384
+392
+400
+408
+416
+424
+432
+440
+448
+456
+464
+472
+480
+488
+496
+504
+512
+520
+528
+536
+544
+552
+560
+568
+576
+584
+592
+600
+608
+616
+624
+632
+640
+648
+656
+664
+672
+680
+688
+696
+704
+712
+720
+728
+736
+744
+752
+760
+768
+776
+784
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog007_prime.c 
+
+Enter a number: 2
+2 is PRIME
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog008_printPrime.c 
+
+Enter the start and end: 2 99
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog009_sine.c 
+
+Enter the number of terms: 6
+Enter the angle in degrees: 12  56
+sin(56.000000) = 0.829021
+library value = 0.829021
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_4/prog010_cosine.c 
+
+Enter the number of terms: 6
+Enter angle in degrees: 56
+cos(56.000000) = 0.559217
+library value = 0.559217
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_5/prog1_linearSearch.c 
+
+Enter the number of elements: 46
+elements exceed maxsize of 10
+program terminated
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_5/prog2_bubbleSort.c 
+
+Enter the number of elements:  5 6 8 2 46 3 4 32 6^[[D^[[D         56
+Enter the elements: 
+
+Original array:
+6  8  2  46  3  
+Sorted array:
+2  3  6  8  46  
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_5/prog3_binarySearch.c 
+
+Enter the number of elements: 4
+Enter the elements
+1 8 6 74 
+Input array: 1  8  6  7  
+Enter element to search: 6
+6 found at pos 2
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_5/prog4_stats.c 
+
+Enter the number of elements: 4
+Enter the values: 
+1 5 9 7
+
+Input array: 1  5  9  7  
+Mean = 5.500000
+Variance = 8.750000
+Std Deviation = 2.958040
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_6/prog1_palindrome.c 
+
+Enter a string:
+az  asdfggfdsa
+Palindrome
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_6/prog2_pointers.c 
+
+[01m[K./lab_cycle_6/prog2_pointers.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K./lab_cycle_6/prog2_pointers.c:11:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+   11 |  printf("The memory address of var (in HEX): [01;35m[K%x[m[K\n", [32m[K&var[m[K);
+      |                                              [01;35m[K~^[m[K     [32m[K~~~~[m[K
+      |                                               [01;35m[K|[m[K     [32m[K|[m[K
+      |                                               [01;35m[K|[m[K     [32m[Kint *[m[K
+      |                                               [01;35m[Kunsigned int[m[K
+      |                                              [32m[K%ls[m[K
+[01m[K./lab_cycle_6/prog2_pointers.c:12:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+   12 |  printf("ptr is pointing to memory address (in HEX): [01;35m[K%x[m[K\n", [32m[Kptr[m[K);
+      |                                                      [01;35m[K~^[m[K     [32m[K~~~[m[K
+      |                                                       [01;35m[K|[m[K     [32m[K|[m[K
+      |                                                       [01;35m[K|[m[K     [32m[Kint *[m[K
+      |                                                       [01;35m[Kunsigned int[m[K
+      |                                                      [32m[K%ls[m[K
+[01m[K./lab_cycle_6/prog2_pointers.c:18:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kint **[m[K’ [[01;35m[K-Wformat=[m[K]
+   18 |  printf("The memory address of ptr (in HEX): [01;35m[K%x[m[K\n", [32m[K&ptr[m[K);
+      |                                              [01;35m[K~^[m[K     [32m[K~~~~[m[K
+      |                                               [01;35m[K|[m[K     [32m[K|[m[K
+      |                                               [01;35m[K|[m[K     [32m[Kint **[m[K
+      |                                               [01;35m[Kunsigned int[m[K
+[01m[K./lab_cycle_6/prog2_pointers.c:19:56:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kint **[m[K’ [[01;35m[K-Wformat=[m[K]
+   19 |  printf("dptr is pointing to memory address (in HEX): [01;35m[K%x[m[K\n", [32m[Kdptr[m[K);
+      |                                                       [01;35m[K~^[m[K     [32m[K~~~~[m[K
+      |                                                        [01;35m[K|[m[K     [32m[K|[m[K
+      |                                                        [01;35m[K|[m[K     [32m[Kint **[m[K
+      |                                                        [01;35m[Kunsigned int[m[K
+[01m[K./lab_cycle_6/prog2_pointers.c:20:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+   20 |  printf("Content of memory address pointed by dptr (in HEX): [01;35m[K%x[m[K\n", [32m[K*dptr[m[K);
+      |                                                              [01;35m[K~^[m[K     [32m[K~~~~~[m[K
+      |                                                               [01;35m[K|[m[K     [32m[K|[m[K
+      |                                                               [01;35m[K|[m[K     [32m[Kint *[m[K
+      |                                                               [01;35m[Kunsigned int[m[K
+      |                                                              [32m[K%ls[m[K
+Value of var: 10
+
+The memory address of var (in HEX): 72b6a2d4
+ptr is pointing to memory address (in HEX): 72b6a2d4
+Content of memory address pointed by ptr: 10
+
+The memory address of ptr (in HEX): 72b6a2d8
+dptr is pointing to memory address (in HEX): 72b6a2d8
+Content of memory address pointed by dptr (in HEX): 72b6a2d4
+Content in memory address pointed by content of dptr: 10
+
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_6/prog3_filehandling.c 
+
+
+Read Input to write to file
+
+Enter your text: 
+qw  My name is Ashish
+
+Reading from file and displaying
+My name is Ashish
+
+Copying from source file to target file
+
+File copied successfully!
+
+Displaying contents of target file
+My name is Ashish
+
+Writing random numbers to randomNumber.txt
+================================================================================================================
+
+
+Press enter to continue
+================================================================================================================
+
+Executing:  ./lab_cycle_6/prog4_structure.c 
+
+[01m[K./lab_cycle_6/prog4_structure.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K./lab_cycle_6/prog4_structure.c:20:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kchar (*)[60][m[K’ [[01;35m[K-Wformat=[m[K]
+   20 |   scanf("[01;35m[K%s[m[K", [32m[K&e1.name[m[K);
+      |          [01;35m[K~^[m[K   [32m[K~~~~~~~~[m[K
+      |           [01;35m[K|[m[K   [32m[K|[m[K
+      |           [01;35m[K|[m[K   [32m[Kchar (*)[60][m[K
+      |           [01;35m[Kchar *[m[K
+[01m[K./lab_cycle_6/prog4_structure.c:31:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kchar (*)[60][m[K’ [[01;35m[K-Wformat=[m[K]
+   31 |   scanf("[01;35m[K%s[m[K", [32m[K&e2.name[m[K);
+      |          [01;35m[K~^[m[K   [32m[K~~~~~~~~[m[K
+      |           [01;35m[K|[m[K   [32m[K|[m[K
+      |           [01;35m[K|[m[K   [32m[Kchar (*)[60][m[K
+      |           [01;35m[Kchar *[m[K
+[01m[K./lab_cycle_6/prog4_structure.c:42:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 2 has type ‘[01m[Kchar (*)[60][m[K’ [[01;35m[K-Wformat=[m[K]
+   42 |   scanf("[01;35m[K%s[m[K", [32m[K&e3.name[m[K);
+      |          [01;35m[K~^[m[K   [32m[K~~~~~~~~[m[K
+      |           [01;35m[K|[m[K   [32m[K|[m[K
+      |           [01;35m[K|[m[K   [32m[Kchar (*)[60][m[K
+      |           [01;35m[Kchar *[m[K
+Enter details of employee 1: 
+Enter name:
+Ashish
+Enter employee id: 
+as  456
+Enter age: 
+22
+Enter salary:
+123
+
+Enter details of employee 2: 
+Enter name:
+Naresh
+Enter employee id: 
+789
+Enter age: 
+123   22
+Enter salary:
+123
+
+Enter details of employee 3: 
+Enter name:
+Vivek Keshava
+Enter employee id: 
+Enter age: 
+Enter salary:
+
+
+Printing Employee details
+
+Name		ID		Age		Salary
+Ashish		456		22		123
+Naresh		789		22		123
+Vivek		-578075050		32766		-173332507
+================================================================================================================
+
+
+Press enter to continue
+[01;32mashish_farande@Farande[00m:[01;34m~/Desktop/Naresh/lousy-lab[01;35m [master][00m$ exit
+exit
+
+Script done on 2020-03-13 09:30:39+05:30 [COMMAND_EXIT_CODE="0"]

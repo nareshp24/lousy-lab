@@ -17,7 +17,7 @@ int main()
 		// collect details of employee 1
 		printf("Enter details of employee 1: \n");
 		printf("Enter name:\n");
-		scanf("%s", &e1.name);
+		scanf("%59s", e1.name);
 		printf("Enter employee id: \n");
 		scanf("%d", &e1.id);
 		printf("Enter age: \n");
@@ -28,7 +28,7 @@ int main()
 		// collect details of employee 2
 		printf("\nEnter details of employee 2: \n");
 		printf("Enter name:\n");
-		scanf("%s", &e2.name);
+		scanf("%59s", e2.name);
 		printf("Enter employee id: \n");
 		scanf("%d", &e2.id);
 		printf("Enter age: \n");
@@ -39,7 +39,7 @@ int main()
 		// collect details of employee 3
 		printf("\nEnter details of employee 3: \n");
 		printf("Enter name:\n");
-		scanf("%s", &e3.name);
+		scanf("%59s", e3.name);
 		printf("Enter employee id: \n");
 		scanf("%d", &e3.id);
 		printf("Enter age: \n");

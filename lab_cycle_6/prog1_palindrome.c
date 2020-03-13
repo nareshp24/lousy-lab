@@ -8,13 +8,16 @@ int main(){
 	int headMarker, mid, tailMarker, len = 0;
 
 		puts("Enter a string:");
-		gets(string); // reads user input
+		// Never use gets
+		// gets(string); // reads user input
 
+		fgets(string, sizeof(string), stdin);
+		
 		// find the length of the string
 		while(string[len] != '\0') // the last character of a string is always a null character '\0'.
 			len++;
 		
-		tailMarker = len - 1;
+		tailMarker = len - 2;
 		mid = len/2;
 
 		for(headMarker = 0; headMarker < mid; headMarker++)
