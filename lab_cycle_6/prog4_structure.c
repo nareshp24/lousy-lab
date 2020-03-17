@@ -17,7 +17,7 @@ int main()
 		// collect details of employee 1
 		printf("Enter details of employee 1: \n");
 		printf("Enter name:\n");
-		scanf("%59s", e1.name);
+		scanf("%59s", e1.name); // name is nothing but an array whenever you pass it to scanf it decays to the pointer to first element
 		printf("Enter employee id: \n");
 		scanf("%d", &e1.id);
 		printf("Enter age: \n");

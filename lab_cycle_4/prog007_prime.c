@@ -24,7 +24,7 @@ int main()
 			if(num % i == 0)
 			{
 				printf("%d is NOT PRIME\n", num);
-				exit(1);
+				exit(1);	//Why exit? Exit(1) will imply that the program wasn't succesfull
 			}
 		}
 

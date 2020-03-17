@@ -11,7 +11,9 @@ int main()
 		// take user input
 		printf("Enter the start and end: ");
 		scanf("%d %d", &m, &n);  //m = start, n = end
-		
+		 
+		// Proper check should be done such that m<n, for loop handles it but the user needs to be notified
+
 		if (m == 1 || m == 0)	//because 1 is neither a prime nor a composite
 			m = 2; //it should be avoided
 		

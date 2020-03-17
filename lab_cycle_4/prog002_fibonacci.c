@@ -4,6 +4,7 @@
 
 int main()
 {
+	// Its better we scope the varaibles according to the need
 	// initialize variables
 	int a = 0, b = 1, n = 0, temp = 0;
 	int i = 0;

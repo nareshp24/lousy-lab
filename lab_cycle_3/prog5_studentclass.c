@@ -16,6 +16,7 @@
 int main()
 {
 
+	// How about using an array for this?
 	float sub1 = 0, sub2 = 0, sub3 = 0, sub4 = 0, sub5 = 0, sub6 = 0; //score of individual subjects
 	float average = 0;
 

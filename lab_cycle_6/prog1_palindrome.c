@@ -9,6 +9,7 @@ int main(){
 
 		puts("Enter a string:");
 		// Never use gets
+		// gets() doesn't allow you to specify the length of the buffer to store the string in. This would allow people to keep entering data past the end of your buffer.
 		// gets(string); // reads user input
 
 		fgets(string, sizeof(string), stdin);

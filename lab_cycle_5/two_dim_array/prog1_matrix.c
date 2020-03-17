@@ -93,7 +93,7 @@ int main()
 
 			else
 			{
-				flag = 1; //repeats the loop
+				flag = 1; //repeats the loop // No need to set the flag again and again it will be one
 				printf("Invalid operation\n");
 			}
 		}//end while

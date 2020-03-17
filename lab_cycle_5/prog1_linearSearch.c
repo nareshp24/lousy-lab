@@ -10,7 +10,7 @@ int main()
 {
 	// initialize variables
 	int array[maxsize] = {0};
-	int i = 0, n = 0, key = 0, found = 0;
+	int i = 0, n = 0, key = 0, found = 0; // found is just one bit data, better to be boolean
 		
 		// take user input
 		printf("Enter the number of elements: ");

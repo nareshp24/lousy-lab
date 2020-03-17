@@ -33,7 +33,7 @@ int main()
 unsigned long int fact(int k)
 {
 
-	if(k == 0)
+	if(k == 0) // You can OR it with 1
 		return 1;
 
 	return k * fact(k - 1);

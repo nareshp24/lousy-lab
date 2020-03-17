@@ -18,7 +18,8 @@ int main()
 				printf("%d\n", i);
 		}
 
-	
+		// This can done more efficeintly. I mean in a faster way
+		// Multiplication is nothing but addition of same number
 
 	return 0;
 }

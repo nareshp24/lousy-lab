@@ -26,6 +26,7 @@ int main()
 		{
 			k = 2*i + 1;
 			
+			// Functions can be introduced
 			//calculating factorial(k)
 			fact = 1;
 			for(j = k; j >= 1; j--)
